@@ -5,7 +5,7 @@ import numpy as np
 st.title("📈 BBCA Forecasting - Moving Average Model")
 
 # Load data
-df = pd.read_csv("IDX 2000-2024.csv.gz")
+df = pd.read_csv(r"C:\SEMESTER 3\IDX 2000-2024.csv")
 
 # Filter hanya BBCA
 df = df[df["Ticker"] == "BBCA"]
